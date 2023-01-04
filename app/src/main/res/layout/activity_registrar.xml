@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="1080px"
+        android:layout_height="2400px"
+        app:srcCompat="@drawable/registrar_android"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:text="Ingresar Empleados" />
+
+        <EditText
+            android:id="@+id/editTextTexCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Código del Empleado"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-black"
+            android:textColorHint="@color/white"
+            android:textStyle="italic"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre del Empleado"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-black"
+            android:textColorHint="@color/white"
+            android:textStyle="italic"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextTextCedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Num Ced del Empleado"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-black"
+            android:textColorHint="@color/white"
+            android:textStyle="italic"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextTextSalario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Salario del Empleado"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editTextTextDepartamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Departamento del Empleado"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-black"
+            android:textColorHint="@color/white"
+            android:textStyle="italic"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="535dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/GuardarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="10dp"
+            android:text="Guardar" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/LimpiarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginRight="15dp"
+            android:text="Limpiar" />
+
+        <Button
+            android:id="@+id/VolverButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginRight="15dp"
+            android:text="Volver" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

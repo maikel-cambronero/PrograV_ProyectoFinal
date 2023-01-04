@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468176768008",
+    "project_id": "prov-proyectofinal",
+    "storage_bucket": "prov-proyectofinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468176768008:android:654a6ef1986769ab2155bd",
+        "android_client_info": {
+          "package_name": "com.maikel.prov_proyectofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468176768008-s7111g2f8f7m1o1pn2vfv6ps7pm4moft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnUGqhcGcBXOC7zoPWvpDTTyipBaXDFUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468176768008-s7111g2f8f7m1o1pn2vfv6ps7pm4moft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
